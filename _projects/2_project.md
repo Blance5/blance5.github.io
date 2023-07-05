@@ -1,17 +1,21 @@
 ---
 layout: page
-title: Computer Vision
-description: Anything involving images
-img: assets/img/3.jpg
+title: Game of Life
+description: A model of population growth
+img: assets/img/GOL.png
 importance: 2
 category: fun
 ---
 
-Every picture is worth 1,000 words. Well, in this case the thousands of words and many hours were put into these projects.
+In my research of computer science I learned about a prominent figure named John Conway and a cellular automation he called "The Game of Life". I began experimenting with the game of life and eventually wanted to create my own game of life, so I did.
 
-I have a list of computer vision projects with all the source code [here](https://github.com/SpencerPao/ComputerVision)
+The Game of Life lives in a grid of sqaures called cells, each cell has 4 adjacent neighbors which can either be alive or dead. In each step of The Game of Life, the following transactions occur:
+- Any live cell with two or three live neighbours survives.
+- Any dead cell with three live neighbours becomes a live cell.
+- All other live cells die in the next generation. Similarly, all other dead cells stay dead.
 
-More is to come. There are many applications that can be done. How exciting!
+Here is my implementation of this facinating simulation:
+[![Unable to Load](https://img.youtube.com/vi/FzTw2rdaTU4/0.jpg)](https://www.youtube.com/watch?v=FzTw2rdaTU4)
 
 ---
 <div class="row">
