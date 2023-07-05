@@ -9,10 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Ben  Lance | Resume</title>
+    <title>Ben  Lance | Game of Life</title>
     <meta name="author" content="Ben  Lance" />
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-" />
+    <meta name="description" content="A model of population growth" />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -33,7 +32,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://blance5.github.io/blog/">
+    <link rel="canonical" href="https://blance5.github.io/projects/2_project/">
     
     <!-- Dark Mode -->
     
@@ -72,7 +71,7 @@
               </li>
               
               <!-- Blog -->
-              <li class="nav-item active">
+              <li class="nav-item ">
                 <a class="nav-link" href="/blog/">blog</a>
               </li>
 
@@ -82,8 +81,8 @@
               </li>
 
               <!-- Toogle theme mode -->
-              <div class = "toggle-container">
-                <a id = "light-toggle">
+              <div class="toggle-container">
+                <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </a>
@@ -96,34 +95,39 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h2>My Resume</h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">Game of Life</h1>
+            <p class="post-description">A model of population growth</p>
+          </header>
 
-  <div class="pdf-container">
-    <img src="../../assets/img/resume.png" alt="My Resume">
-  </div>
-  
-  
-  <style>  
-    .pdf-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-  </style>
-</div>
+          <article>
+            <p>In my research of computer science I learned about a prominent figure named John Conway and a cellular automation he called “The Game of Life”. I began experimenting with the game of life and eventually wanted to create my own game of life, so I did.</p>
+
+<p>The Game of Life lives in a grid of sqaures called cells, each cell has 4 adjacent neighbors which can either be alive or dead. In each step of The Game of Life, the following transactions occur:</p>
+<ul>
+  <li>Any live cell with two or three live neighbours survives.</li>
+  <li>Any dead cell with three live neighbours becomes a live cell.</li>
+  <li>All other live cells die in the next generation. Similarly, all other dead cells stay dead.</li>
+</ul>
+
+<h2 id="here-is-my-implementation-of-this-facinating-simulation">Here is my implementation of this facinating simulation:</h2>
+<p><a href="https://www.youtube.com/watch?v=WLKO4uua7hg" target="_blank" rel="noopener noreferrer"><img src="https://img.youtube.com/vi/WLKO4uua7hg/0.jpg" alt="Unable to Load"></a>
+—</p>
+
+
+          </article>
+
+        </div>
 
     </div>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2023 Ben  Lance. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+        © Copyright 2023 Ben  Lance. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 
       </div>
     </footer>
