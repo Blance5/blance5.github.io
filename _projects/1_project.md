@@ -7,7 +7,7 @@ importance: 1
 category: fun
 ---
 
-[Check out the project!](betterbook.store)
+<a href="https://betterbook.store">Check out the Application</a>
 
 This project is designed to help users find books they are interested in and save them for later. The application queries google's 'Books' API to fetch book information
 Current features of the website include:
