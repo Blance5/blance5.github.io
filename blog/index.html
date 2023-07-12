@@ -106,19 +106,28 @@
 
   <div class="pdf-container" id="pdf-container">
   </div>
-  <script>
+<script>
   // Fetch the PDF file
   const pdfUrl = '/assets/img/resume.pdf';
 
   // Set up the viewer options
+  const viewerContainer = document.getElementById('pdf-container');
   const viewerOptions = {
-    url: pdfUrl,
-    withCredentials: false
+    workerSrc: 'path/to/pdf.worker.js',
+    documentUrl: pdfUrl
   };
 
-  // Load and render the PDF
-  PDFViewerApplication.initialize(viewerOptions);
-  PDFViewerApplication.open(pdfUrl);
+  // Initialize and render the PDF viewer
+  PDFJS.getDocument(viewerOptions.documentUrl)
+    .promise.then(pdf => {
+      PDFViewerApplication.initialize({
+        pdfDocument: pdf,
+        viewerContainer,
+        ...viewerOptions
+      });
+      PDFViewerApplication.pdfViewer.setDocument(pdf);
+    });
+</script>pplication.open(pdfUrl);
 </script>
   
   <style>  
