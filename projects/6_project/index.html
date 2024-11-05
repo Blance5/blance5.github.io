@@ -107,21 +107,21 @@
             <p>
               Cellular automata is a model of computation that consists of a grid of cells, in which their growth and decay is modeled. John Conway's game of life is known as the first cellular automata implementation. </p><br> <p>
 
-              A long while ago I was introduced to John Conways game of life, where I was fascinated by the idea of a simple set of rules creating complex patterns. After implementing the game of life, I was wondering to myself what would happen if I expanded the dimensionality of the modeling space. I wanted to see what interesting behaviors would emerge from the addition of a new dimension.
-              My first problem was being able to graph the cells themselves. I wanted to have full control over every aspect of my visualization, so I decided to use the low level OpenGL library. Using this library, I was able to design and create my own 2d and 3d rendering engines, which were used as a basis for my visualization.
+              A long while ago I was introduced to John Conways game of life, where I was fascinated by the idea of a simple set of rules creating complex patterns. After implementing the game of life, I was wondering to myself what would happen if I expanded the dimensionality of the modeling space. I wanted to see what interesting behaviors would emerge from the addition of a new dimension.</p><br> <p>
+              My first problem was being able to graph the cells themselves. I wanted to have full control over every aspect of my visualization, so I decided to use the low level OpenGL library. Using this library, I was able to design and create my own 2d and 3d rendering engines, which were used as a basis for my visualization.</p><br> <p>
 
               Rulesets of cellular automata describe when a new cell should be born, and when a cell should die, this is done by counting the amount of alive neighbors a cell has. In the case of multi dimensional cellular automata, a third perameter is described, the number of states a cell can have. 
               When expanded to three dimensions, cellular automata rulesets allow cells to have more states than simply alive or dead. A third type of state described as "dying" is added, where the "dying" cell is not counted as an alive cell for the purpose of counting alive neighbors. Each iteration of the model, the "dying" cell will continue to die until it is considered fully dead, the time it takes to die is determined by amount of states the cell has.
-              A cell is dying for n iterations where n is the amount of states the cell has minus 2 (alive and dead).
+              A cell is dying for n iterations where n is the amount of states the cell has minus 2 (alive and dead).</p><br> <p>
 
-              When considering how many neighbors a cell has, there are two common ways to describe a neighborhood.
+              When considering how many neighbors a cell has, there are two common ways to describe a neighborhood.</p><br> <p>
 
               Moore Neighborhood:
               The Moore Neighborhood can be described as the 26 cells contained in a 3x3x3 cube centered around the cell in question. This neighborhood is the most common neighborhood used in 3d cellular automata models.
-
+            </p><br> <p>
               Von Neumann Neighborhood:
               This neighborhood only consists of the 6 cells that are directly touching a face with the cell in question.
-              
+            </p><br> <p>
               Here is the model in action:
             </p>
             <div class="embed-responsive embed-responsive-16by9">
