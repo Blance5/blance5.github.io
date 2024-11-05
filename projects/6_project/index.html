@@ -99,38 +99,43 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">StormSim.AI</h1>
-            <p class="post-description">KnightHacks Hackathon 2023 Category Winner</p>
+            <h1 class="post-title">3 Dimensional Cellular Automata</h1>
+            <p class="post-description">A geometric look on cellular behavior models</p>
           </header>
 
           <article>
             <p>
-              With a team of 3 others I had never met before, we were able to develop a fullstack application that allows users to model damages of a potential hurricane.
-              I'm from Florida, and we know what to expect when a hurricane hits, but there are many others who are unaware of the possible effects of a hurricane, this is why we wanted to create an app that allows people to compare the effects of hurricanes they create, to obtain a better understanding of what may happen if a hurricane strikes.
-              The application allows users to hand-draw the path of a potential hurricane, and select their location of residence. Using propritary algorithms and the Google Map Visualization library, we are able to provide meaningful statistics and visualizations to the user displaying how the hurricane may affect them.
+              Cellular automata is a model of computation that consists of a grid of cells, in which their growth and decay is modeled. John Conway's game of life is known as the first cellular automata implementation
 
-              This project was the winner of the Knight Hacks 2023 Best Use of Google Cloud category
-              <br><br>
-              The following technologies were used in the making of this project 
-              <ul>
-              <li> Google Maps API</li> 
-              <li>JavaScript/HTML/CSS</li> 
-              <li>Google Maps Visualization/Places/Drawing Libraries</li> 
-              <li>Node.js </li> 
-              <li>Google Maps Heatmap</li> 
-              <li>ChatGPT Integration to query hurricane statistics</li>
-              </ul>
+              A long while ago I was introduced to John Conways game of life, where I was fascinated by the idea of a simple set of rules creating complex patterns. After implementing the game of life, I was wondering to myself what would happen if I expanded the dimensionality of the modeling space. I wanted to see what interesting behaviors would emerge from the addition of a new dimension.
+              My first problem was being able to graph the cells themselves. I wanted to have full control over every aspect of my visualization, so I decided to use the low level OpenGL library. Using this library, I was able to design and create my own 2d and 3d rendering engines, which were used as a basis for my visualization.
+
+              Rulesets of cellular automata describe when a new cell should be born, and when a cell should die, this is done by counting the amount of alive neighbors a cell has. In the case of multi dimensional cellular automata, a third perameter is described, the number of states a cell can have. 
+              When expanded to three dimensions, cellular automata rulesets allow cells to have more states than simply alive or dead. A third type of state described as "dying" is added, where the "dying" cell is not counted as an alive cell for the purpose of counting alive neighbors. Each iteration of the model, the "dying" cell will continue to die until it is considered fully dead, the time it takes to die is determined by amount of states the cell has.
+              A cell is dying for n iterations where n is the amount of states the cell has minus 2 (alive and dead).
+
+              When considering how many neighbors a cell has, there are two common ways to describe a neighborhood.
+
+              Moore Neighborhood:
+              The Moore Neighborhood can be described as the 26 cells contained in a 3x3x3 cube centered around the cell in question. This neighborhood is the most common neighborhood used in 3d cellular automata models.
+
+              Von Neumann Neighborhood:
+              This neighborhood only consists of the 6 cells that are directly touching a face with the cell in question.
               
-              Check out the project!:
-              <ul>
-                <li>
-                  <a href="https://devpost.com/software/stormsim-ai">Devpost</a>
-                </li>
-                <li>
-                  <a href="https://github.com/Blance5/StormSim.ai">Github Repo</a>
-                </li>
-              </ul>
+              Here is the model in action:
             </p>
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KA6nY_VA_GA" allowfullscreen></iframe>
+            </div>
+            
+            <h6>
+              <a href="https://github.com/blance5" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>Check out the project on my Github
+              </a>
+            </h6> 
+            
+
+            
 
 <p><img src="../../assets/img/stormsim.jpg" style="width: 59vw" alt="stormSim"></p>
 
