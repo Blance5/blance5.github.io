@@ -3,7 +3,7 @@ layout: page
 title: Game of Life
 description: A model of population growth
 img: assets/img/GOL.png
-importance: 2
+importance: 4
 category: fun
 ---
 
@@ -18,4 +18,3 @@ Here is my implementation of this facinating simulation:
 ---
 [![Unable to Load](https://img.youtube.com/vi/WLKO4uua7hg/0.jpg)](https://www.youtube.com/watch?v=WLKO4uua7hg)
 ---
-

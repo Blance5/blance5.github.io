@@ -3,11 +3,9 @@ layout: page
 title: BetterBook
 description: Full stack .net application
 img: assets/img/bookSC.png
-importance: 1
+importance: 2
 category: fun
 ---
-
-[Check out the project!](betterbook.store)
 
 This project is designed to help users find books they are interested in and save them for later. The application queries google's 'Books' API to fetch book information
 Current features of the website include:
@@ -24,4 +22,3 @@ This project was made in .NET MVC using the following technologies:
 - Jquery
 - MS SQL Server
 - Google Books API
-

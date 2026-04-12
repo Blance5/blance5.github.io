@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
-    gem 'wdm', '>= 0.1.0'
     gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-diagrams'
@@ -18,4 +17,8 @@ group :jekyll_plugins do
     gem 'webrick'
     gem 'htmlcompressor'
     gem 'htmlbeautifier'
+end
+
+platforms :mingw, :mswin, :x64_mingw do
+    gem 'wdm', '>= 0.1.0'
 end
