@@ -14,7 +14,4 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-Hello! My name is Ben Lance and I am a student at the Georgia Institute of Technology studying computer science. I am interested in persuing a career in software engineering where I can solve interesting problems using creative solutions. I have had two internships; one in software engineering, and one in machine learning. These opportunities have allowed me to learn a lot about agile development, good software design practices, development lifecycle, team communication, and more.
-
-Feel free to reach out to me at any time
-
+Hi, I'm Ben Lance, a computer science student at Georgia Tech graduating in May 2027. I enjoy building thoughtful software that solves real problems, from tools that help nonprofit partners at Bits of Good to data and machine learning systems at NAPA Auto Parts and Penn State's Applied Research Laboratory. I'm especially interested in full-stack development, data pipelines, and applied machine learning, and I'm always happy to connect so feel free to reach out.
