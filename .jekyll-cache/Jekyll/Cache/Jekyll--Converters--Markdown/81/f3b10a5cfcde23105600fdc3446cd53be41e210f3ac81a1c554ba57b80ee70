@@ -1,0 +1,20 @@
+I"B<p>In less than 36 hours, my team and I tried our best to solve a major problem in the United States: not enough pets are being adopted. We wanted to make adoption feel easy and engaging, so we built a Tinder-style interface that lets users swipe left on pets they are not interested in and swipe right on pets they want to save for later.</p>
+
+<p>The following technologies were used in the making of this project:</p>
+<ul>
+  <li>React (Vite)</li>
+  <li>JavaScript</li>
+  <li>HTML</li>
+  <li>Node.js</li>
+  <li>Auth0</li>
+  <li>Petfinder API</li>
+</ul>
+
+<p>Check out the project!:</p>
+<ul>
+  <li><a href="https://devpost.com/software/ready-pet-go">Devpost</a></li>
+  <li><a href="https://github.com/Blance5/ready-pet-go">GitHub Repo</a></li>
+</ul>
+
+<p><img src="assets/img/rpg.gif" alt="Ready Pet Go demo" style="width: 59vw" /></p>
+:ET

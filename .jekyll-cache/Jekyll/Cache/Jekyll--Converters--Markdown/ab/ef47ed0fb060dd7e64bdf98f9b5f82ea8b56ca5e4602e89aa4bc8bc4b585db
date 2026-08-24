@@ -1,0 +1,13 @@
+I"�<p>In my research of computer science I learned about a prominent figure named John Conway and a cellular automation he called “The Game of Life”. I began experimenting with the game of life and eventually wanted to create my own game of life, so I did.</p>
+
+<p>The Game of Life lives in a grid of sqaures called cells, each cell has 4 adjacent neighbors which can either be alive or dead. In each step of The Game of Life, the following transactions occur:</p>
+<ul>
+  <li>Any live cell with two or three live neighbours survives.</li>
+  <li>Any dead cell with three live neighbours becomes a live cell.</li>
+  <li>All other live cells die in the next generation. Similarly, all other dead cells stay dead.</li>
+</ul>
+
+<h2 id="here-is-my-implementation-of-this-facinating-simulation">Here is my implementation of this facinating simulation:</h2>
+<p><a href="https://www.youtube.com/watch?v=WLKO4uua7hg"><img src="https://img.youtube.com/vi/WLKO4uua7hg/0.jpg" alt="Unable to Load" /></a>
+—</p>
+:ET

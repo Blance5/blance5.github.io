@@ -1,0 +1,19 @@
+current directory: /home/runner/work/blance5.github.io/blance5.github.io/vendor/bundle/ruby/3.3.0/gems/stringio-3.2.0/ext/stringio
+/opt/hostedtoolcache/Ruby/3.3.12/x64/bin/ruby extconf.rb
+checking for rb_io_mode_t in ruby/io.h... no
+creating Makefile
+
+current directory: /home/runner/work/blance5.github.io/blance5.github.io/vendor/bundle/ruby/3.3.0/gems/stringio-3.2.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20260824-2337-342tww sitelibdir\=./.gem.20260824-2337-342tww clean
+
+current directory: /home/runner/work/blance5.github.io/blance5.github.io/vendor/bundle/ruby/3.3.0/gems/stringio-3.2.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20260824-2337-342tww sitelibdir\=./.gem.20260824-2337-342tww
+compiling stringio.c
+linking shared-object stringio.so
+
+current directory: /home/runner/work/blance5.github.io/blance5.github.io/vendor/bundle/ruby/3.3.0/gems/stringio-3.2.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20260824-2337-342tww sitelibdir\=./.gem.20260824-2337-342tww install
+/usr/bin/install -c -m 0755 stringio.so ./.gem.20260824-2337-342tww
+
+current directory: /home/runner/work/blance5.github.io/blance5.github.io/vendor/bundle/ruby/3.3.0/gems/stringio-3.2.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20260824-2337-342tww sitelibdir\=./.gem.20260824-2337-342tww clean
