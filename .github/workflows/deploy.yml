@@ -18,6 +18,8 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -46,7 +48,7 @@ jobs:
         elif [[ ${GITHUB_REF} = refs/heads/* ]]; then # branch, e.g. master, source etc
           echo "SRC_BRANCH=${GITHUB_REF#refs/heads/}" >> "$GITHUB_OUTPUT"
         fi
-        echo "DEPLOY_BRANCH=gh-pages" >> "$GITHUB_OUTPUT"
+        echo "DEPLOY_BRANCH=master" >> "$GITHUB_OUTPUT"
     - name: Fix permission
       run: |
         chmod a+x bin/*
