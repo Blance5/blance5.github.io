@@ -1,0 +1,22 @@
+I"<p>With a team of 3 others I had never met before, we built a full-stack application that helps users model the damage a potential hurricane could cause. We wanted to make hurricane risk easier to understand, so the app lets users draw a storm path, select their location, and compare likely outcomes through maps and generated statistics.</p>
+
+<p>This project won the Knight Hacks 2023 Best Use of Google Cloud category.</p>
+
+<p>The following technologies were used in the making of this project:</p>
+<ul>
+  <li>Google Maps API</li>
+  <li>JavaScript/HTML/CSS</li>
+  <li>Google Maps Visualization, Places, and Drawing Libraries</li>
+  <li>Node.js</li>
+  <li>Google Maps Heatmap</li>
+  <li>ChatGPT integration to query hurricane statistics</li>
+</ul>
+
+<p>Check out the project!:</p>
+<ul>
+  <li><a href="https://devpost.com/software/stormsim-ai">Devpost</a></li>
+  <li><a href="https://github.com/Blance5/StormSim.ai">GitHub Repo</a></li>
+</ul>
+
+<p><img src="assets/img/stormsim.jpg" alt="StormSim demo" style="width: 59vw" /></p>
+:ET

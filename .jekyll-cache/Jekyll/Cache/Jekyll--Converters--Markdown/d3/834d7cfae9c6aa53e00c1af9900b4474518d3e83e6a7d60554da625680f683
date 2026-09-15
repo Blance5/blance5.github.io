@@ -1,0 +1,12 @@
+I"i<p>Cellular automata models describe how simple rules can create surprisingly complex patterns. After learning about Conway’s Game of Life, I wanted to see what would happen if I expanded the idea into three dimensions and built my own visualization tools to explore the results.</p>
+
+<p>To do that, I used OpenGL to build my own 2D and 3D rendering engines so I could control how every cell was displayed. The project explores different neighborhood models and multi-state cell behavior, where cells can transition through a dying state before becoming fully inactive.</p>
+
+<p>Here is the model in action:</p>
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KA6nY_VA_GA" allowfullscreen=""></iframe>
+</div>
+
+<p><a href="https://github.com/Blance5">Check out the project on GitHub</a></p>
+:ET

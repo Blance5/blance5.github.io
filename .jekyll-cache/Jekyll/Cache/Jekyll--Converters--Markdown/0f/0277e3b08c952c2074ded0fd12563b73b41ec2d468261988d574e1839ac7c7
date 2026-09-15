@@ -1,0 +1,20 @@
+I"�<p>This project is designed to help users find books they are interested in and save them for later. The application queries google’s ‘Books’ API to fetch book information
+Current features of the website include:</p>
+<ul>
+  <li>user authentication</li>
+  <li>search for books feature</li>
+  <li>ability to add/remove books from a users saved books</li>
+  <li>ability to learn more about each book</li>
+  <li>front page displaying popular books</li>
+</ul>
+
+<p>This project was made in .NET MVC using the following technologies:</p>
+<ul>
+  <li>C#</li>
+  <li>HTML/CSS/Javascript</li>
+  <li>Bootstrap</li>
+  <li>Jquery</li>
+  <li>MS SQL Server</li>
+  <li>Google Books API</li>
+</ul>
+:ET

@@ -1,0 +1,196 @@
+I"ý<!-- pages/projects.md -->
+<div class="projects">
+  <!-- Display categorized projects -->
+  <!-- Generate cards for each project -->
+  <div class="grid"><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/7_project/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    <!-- <source media="(max-width: 480px)" srcset="/assets/img/baseball-game-scheduler-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/baseball-game-scheduler-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/baseball-game-scheduler-1400.webp" />
+    -->
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/baseball-game-scheduler.png" alt="project thumbnail" />
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Baseball Game Scheduler</h2>
+          <p class="card-text">Invite-only app for organizing pickup baseball games with friends</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/6_project/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    <!-- <source media="(max-width: 480px)" srcset="/assets/img/3dca-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/3dca-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/3dca-1400.webp" />
+    -->
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/3dca.jpg" alt="project thumbnail" />
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">3D Cellular Automaton</h2>
+          <p class="card-text">An expansion of cellular growth and decay into three dimensions</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/1_project/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    <!-- <source media="(max-width: 480px)" srcset="/assets/img/bookSC-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/bookSC-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/bookSC-1400.webp" />
+    -->
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/bookSC.png" alt="project thumbnail" />
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">BetterBook</h2>
+          <p class="card-text">Full stack .net application</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/5_project/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    <!-- <source media="(max-width: 480px)" srcset="/assets/img/stormsimthumb-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/stormsimthumb-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/stormsimthumb-1400.webp" />
+    -->
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/stormsimthumb.png" alt="project thumbnail" />
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">StormSim.AI</h2>
+          <p class="card-text">KnightHacks 2023 Google Cloud Winner</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/2_project/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    <!-- <source media="(max-width: 480px)" srcset="/assets/img/GOL-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/GOL-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/GOL-1400.webp" />
+    -->
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/GOL.png" alt="project thumbnail" />
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Game of Life</h2>
+          <p class="card-text">A model of population growth</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/4_project/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    <!-- <source media="(max-width: 480px)" srcset="/assets/img/rpgthumb-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/rpgthumb-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/rpgthumb-1400.webp" />
+    -->
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/rpgthumb.png" alt="project thumbnail" />
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Ready Pet Go</h2>
+          <p class="card-text">Help Adopt Great Pets</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div><!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/3_project/">
+      <div class="card hoverable"><figure>
+
+  <picture>
+    <!-- <source media="(max-width: 480px)" srcset="/assets/img/Snake-480.webp" />
+    <source media="(max-width: 800px)" srcset="/assets/img/Snake-800.webp" />
+    <source media="(max-width: 1400px)" srcset="/assets/img/Snake-1400.webp" />
+    -->
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/Snake.png" alt="project thumbnail" />
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Snake</h2>
+          <p class="card-text">Python personal development project</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+  </div></div>
+:ET
